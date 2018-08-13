@@ -42,7 +42,7 @@ Vue.component('countdown', {
 
   data() {
     return {
-      deadline: 'Aug 27, 2018 08:00:00',
+      deadline: 'Aug 27, 2018 08:37:00',
       days: '1',
       hours: '3',
       minutes: '3',

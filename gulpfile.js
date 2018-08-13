@@ -14,7 +14,7 @@ gulp.task('sass', function() {
 // Watch Files
 gulp.task('default', ['sass'], function() {
   browserSync.init({
-    server: './src'
+    server: '.'
   });
   gulp.watch(['src/base.scss'], ['sass']);
   gulp.watch('src/index.html').on('change', browserSync.reload);
