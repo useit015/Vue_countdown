@@ -31,9 +31,10 @@ Vue.component('countdown', {
 
     <div v-show="expired" class="expired-timer timer">
       <div class="box">
+        <!--Fill Me Later-->
         <div class="spacer"></div>
         <p class="value">1337</p>
-        <p class="label">Pool Loaded</p>
+        <p class="label"></p>
       </div>
     </div>
    
